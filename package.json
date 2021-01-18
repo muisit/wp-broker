@@ -1,0 +1,42 @@
+{
+  "name": "wp-broker",
+  "version": "1.0.0",
+  "description": "The Wordpress Broker Backend Interface",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.5.3",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.5.1",
+    "material-icons": "^0.5.2",
+    "mini-css-extract-plugin": "^1.3.4",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.4.9",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.0",
+    "webpack": "^5.13.0",
+    "webpack-cleanup-plugin": "^0.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "webpack",
+    "prod": "NODE_ENV='production' webpack -p",
+    "watch": "webpack --watch"
+  },
+  "author": "Michiel Uitdehaag",
+  "license": "GPL-3.0-or-later"
+}
